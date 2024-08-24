@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>IBM Front-end Course</title>
+        <script src="/script.js"></script>
+    </head>
+    <body>
+        <nav class="navbar" id="navbar">
+            <div class="header">
+                <img src="/img/1723545893701.jpeg" class="header-img">
+                <p class="header-text">Mohamed Waleed</p>
+            </div>
+            <div class="links">
+                <a href="#about-me">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#recommendations">Recommendations</a>
+            </div>
+        </nav>
+        <section class="about-me" id="about-me">
+            <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" width="550px">
+            <div class="about-me-text">
+                <h1>Hi, I'm Mohamed Waleed 👋</h1>
+                <p>I am a Front-end Web Developer (Currently Student) with 1 year of experience in 
+                    C# and Python, I'm looking to transition to the web development space as it is easier
+                    and aligns more with my passion
+                </p>
+            </div>   
+        </section>
+        <section class="skills" id="skills">
+            <h1 class="skills-header">Skills</h1>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="/img/html5.png">
+                    <h2>HTML5</h2>
+                    <p>1 Year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="/img/CSS3.png">
+                    <h2>CSS</h2>
+                    <p>1 Year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="/img/js.jpeg">
+                    <h2>JavaScript</h2>
+                    <p>1 Year experience</p>
+                </div>
+                <div class="skill">
+                    <img src="/img/react.png">
+                    <h2>React</h2>
+                    <p>6 Months experience</p>
+                </div>
+            </div>
+        </section> <br>
+        <section class="projects" id="projects">
+            <h1 class="skills-header">Projects</h1> 
+            <div class="project">
+                <h1>QR Code Generator</h1>
+                <ul>
+                    <li>Developed a QR Generator using HTML CSS and JavaScript using only a single image</li>
+                </ul>
+                <hr>
+            </div>
+            <div class="project">
+                <h1>Password Generator</h1>
+                <ul>
+                    <li>Developed a secure password generator with accordance to NIST rules</li>
+                    <li>made with Python and Qt</li>
+                </ul>
+                <hr>
+            </div>
+            <div class="project">
+                <h1>Hotel Website</h1>
+                <ul>
+                    <li>Developed and maintained a hotel website made with HTML CSS JavaScript and Tailwind</li>
+                </ul>
+                <hr>
+            </div>
+        </section>
+        <section class="recommendations" id="recommendations">
+            <h1 class="skills-header">Recommendations</h1> 
+            <div class="recommendation">
+                <q>
+                    Mohamed has an exceptional eye for detail.
+                     Whether it's ensuring pixel-perfect designs or catching even the smallest bugs,
+                     he consistently delivers high-quality work. His commitment to accuracy has been invaluable in our projects,
+                     leading to polished and professional final products.
+                </q>
+                <q>
+                    Working with Mohamed has been a pleasure due to his strong problem-solving skills. 
+                    He's always quick to find efficient and effective solutions to any challenges that arise during development. 
+                    His ability to think critically and troubleshoot issues on the spot has saved us time and kept our projects on 
+                    track.
+                </q>
+                <q>
+                    Mohamed is not just a great developer, but also a fantastic team player and leader. 
+                    He is always willing to help others, share his knowledge, and step up when needed. 
+                    His leadership during our last project was crucial in meeting deadlines and ensuring 
+                    that the team stayed motivated and on the same page.
+                </q>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="flex_center">
+              <fieldset>
+                <legend class="introduction">Leave a Recommendation</legend>          
+                <input type="text" placeholder="Name (Optional)" id="contact-us-name"> <br/>
+                <textarea id="new_recommendation" cols="100" rows="10" placeholder="Message"></textarea>
+                <div class="flex_center">
+                  <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                </div>
+              </fieldset>
+            </div>
+        </section>
+        <button id="home">
+            <a href="#navbar">
+                <img src="/img/home.png" width="30px">
+            </a>
+        </button>
+    </body>
+</html>
